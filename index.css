@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}	
+
+/* Começo do css*/
+
+body {
+  background-color : #9cc4b2;
+  font-family : "Roboto";
+  display : flex;
+  flex-direction : column;
+  align-items : center;}
+
+.image {
+  width : 100%;
+  
+}
+
+#rounds {
+  font-size : 1.2em;
+  text-align : center;
+  width : 50%;
+  height : 10%;
+  margin-top : 10px;}
+
+.header {
+
+  font-size : 2.5rem;
+} 
+
+.header-display {
+  margin-top : 30px;
+  width : 38%;}
+
+.button-display {  
+  display : flex;
+  flex-direction : row;
+  justify-content : center;
+  padding-top : 10px;}
+
+
+
+button {
+  color : white;
+  font-family : "Roboto";
+  font-size : 1.3em;
+  font-weight : 0.5em;
+  border : 0;
+  box-shadow : 0;
+  text-align : center;
+  width : 33%;
+  height : 60px;} 
+
+button:hover {
+  cursor : pointer;}
+
+.btn1 {
+  background-color : #007ea7;
+  border-top-left-radius : 28px;
+  border-bottom-left-radius : 28px;}
+.btn1:active {
+  background-color : #005672;
+}
+
+.btn3 {
+  background-color : #f7cb15;
+  border-top-right-radius : 28px;
+  border-bottom-right-radius : 28px;}
+.btn3:active {
+  background-color : #bf9b09;
+}
+
+.btn2 {
+  background-color : #f55d3e;
+  border-radius :0px;}
+.btn2:active{
+  background-color : #cb3c1f;
+}
+
+@media all and (max-width: 600px){
+ .header-display {
+  width : 90%;}} 
